@@ -35,5 +35,29 @@ $database = [
         'author' => 'Eric Clapton',
         'year' => 2002,
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg'
-    ]
+    ],
+    [
+        'title' => 'Aida',
+        'author' => 'Rino Gaetano',
+        'year' => 1977,
+        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/715SzAD8-oL._AC_SY450_.jpg'
+    ],
+    [
+        'title' => 'Polaroid',
+        'author' => 'Carl Brave',
+        'year' => 2017,
+        'poster' => 'https://rockitecn.nohup.it/dbimg/articoli/28853.jpg'
+    ],
+    [
+        'title' => 'Ok',
+        'author' => 'Gazzelle',
+        'year' => 2021,
+        'poster' => 'https://upload.wikimedia.org/wikipedia/it/f/fe/GazzelleOK1.jpg'
+    ],
+    [
+        'title' => 'Ultima notte',
+        'author' => 'Ariete',
+        'year' => 2021,
+        'poster' => 'https://lh3.googleusercontent.com/proxy/JsM5D43bo5FRnmRR8INPB4O5Ga0gjs_TOebpur7bV_5--AkWrOurcXgYdRrlrStQoEdUY-pK87sZLniFco0vspbJ7Ycz4K-CTztQizPhM4LuF0lwfjF7PlbwfFW8eOchBE9i7kkM'
+    ],
 ];
