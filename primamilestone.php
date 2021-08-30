@@ -10,17 +10,25 @@
 <body>
 
     <nav></nav>
-    <main class="container">
-        <div class="row">
-            <?php
-                require_once __DIR__ . "/database/database.php";
+    <main> 
+        <div class="container">
+            <div class="row">
+                <?php
+                    require_once __DIR__ . "/database/database.php";
 
-                foreach($database as $detail){
-                    echo "<div class='cosa'> <div class='album'> {$detail['title']} </div> </div>";
-                }
-            ?>
-        </div>        
-            </main>
-    
+                    foreach($database as $detail){
+                        echo "<div class='album'>
+                            <div class='foto-album'> <img src='{$detail['poster']}'> </div>
+                            <div class='title'> <h1>{$detail['title']}</h1> </div>
+                            <div class='description'>
+                                <span>{$detail['author']}</span>
+                                <span>{$detail['year']}</span>
+                            </div>
+                        </div>";
+                    }
+                ?>
+            </div> 
+        </div>       
+    </main>
 </body>
 </html>
