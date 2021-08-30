@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-
     <nav></nav>
     <main> 
         <div class="container">
@@ -18,13 +17,13 @@
 
                     foreach($database as $detail){
                         echo "<div class='album'>
-                            <div class='foto-album'> <img src='{$detail['poster']}'> </div>
-                            <div class='title'> <h1>{$detail['title']}</h1> </div>
-                            <div class='description'>
-                                <span>{$detail['author']}</span>
-                                <span>{$detail['year']}</span>
-                            </div>
-                        </div>";
+                                <div class='foto-album'> <img src='{$detail['poster']}'> </div>
+                                <div class='title'> <h1>{$detail['title']}</h1> </div>
+                                <div class='description'>
+                                    <span>{$detail['author']}</span>
+                                    <span>{$detail['year']}</span>
+                                </div>
+                             </div>";
                     }
                 ?>
             </div> 
