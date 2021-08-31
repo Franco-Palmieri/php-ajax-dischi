@@ -68,7 +68,7 @@ $database = [
         'author' => 'Ariete',
         'year' => 2021,
         'genre' => 'Indie',
-        'poster' => 'https://lh3.googleusercontent.com/proxy/JsM5D43bo5FRnmRR8INPB4O5Ga0gjs_TOebpur7bV_5--AkWrOurcXgYdRrlrStQoEdUY-pK87sZLniFco0vspbJ7Ycz4K-CTztQizPhM4LuF0lwfjF7PlbwfFW8eOchBE9i7kkM'
+        'poster' => 'https://cdn.radiozeta.it/Song/400x400/ariete-l-ultima-notte-kj4aw.jpg'
     ],
 ];
 ?>
@@ -83,13 +83,27 @@ $database = [
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-
-    <?php 
-        $result = array_filter($database, function($value)){
-            if($value['genre'] === 'Indie'){
-                var_dump('genre')
-            }
-        }
-    ?>
+    <nav></nav>
+    <main>
+        <div class="container">
+            <div class="row">
+            <?php 
+                $result = array_filter($database, function($value){
+                    if($value['genre'] === 'Indie'){
+                        echo "<div class='album'>
+                                <div class='foto-album'> <img src='{$value['poster']}'> </div>
+                                <div class='title'> <h1>{$value['title']}</h1> </div>
+                                <div class='description'>
+                                    <span>{$value['author']}</span>
+                                    <span>{$value['year']}</span>
+                                </div>
+                            </div>";;
+                    };
+                });
+            ?>
+            </div>
+        </div>
+    </main>
+    
 </body>
 </html>

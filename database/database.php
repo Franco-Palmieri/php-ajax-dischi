@@ -68,6 +68,6 @@ $database = [
         'author' => 'Ariete',
         'year' => 2021,
         'genre' => 'Indie',
-        'poster' => 'https://lh3.googleusercontent.com/proxy/JsM5D43bo5FRnmRR8INPB4O5Ga0gjs_TOebpur7bV_5--AkWrOurcXgYdRrlrStQoEdUY-pK87sZLniFco0vspbJ7Ycz4K-CTztQizPhM4LuF0lwfjF7PlbwfFW8eOchBE9i7kkM'
+        'poster' => 'https://cdn.radiozeta.it/Song/400x400/ariete-l-ultima-notte-kj4aw.jpg'
     ],
 ];
