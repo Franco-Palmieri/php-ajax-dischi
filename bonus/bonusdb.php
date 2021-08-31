@@ -71,3 +71,25 @@ $database = [
         'poster' => 'https://lh3.googleusercontent.com/proxy/JsM5D43bo5FRnmRR8INPB4O5Ga0gjs_TOebpur7bV_5--AkWrOurcXgYdRrlrStQoEdUY-pK87sZLniFco0vspbJ7Ycz4K-CTztQizPhM4LuF0lwfjF7PlbwfFW8eOchBE9i7kkM'
     ],
 ];
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+    <?php 
+        $result = array_filter($database, function($value)){
+            if($value['genre'] === 'Indie'){
+                var_dump('genre')
+            }
+        }
+    ?>
+</body>
+</html>
